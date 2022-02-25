@@ -10,15 +10,15 @@ document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2);
 
 if(randomNumber1 > randomNumber2)
 {
-  document.querySelector("h1").innerHTML="Player1 is winner";
+  document.querySelector("h1").innerHTML="Player1 Won!";
 }
 else if (randomNumber1 == randomNumber2)
 {
-  document.querySelector("h1").innerHTML="Opps! you both won try again";
+  document.querySelector("h1").innerHTML="Opps! It is Draw";
 }
 else
 {
-  document.querySelector("h1").innerHTML="player2 is winner";
+  document.querySelector("h1").innerHTML="Player2 is Won";
 }
 
 //alert(randomNumber1);
