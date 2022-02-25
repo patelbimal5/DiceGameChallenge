@@ -11,10 +11,12 @@ document.querySelectorAll("img")[1].setAttribute("src", randomDiceImage2);
 if(randomNumber1 > randomNumber2)
 {
   document.querySelector("h1").innerHTML="Player1 is winner";
-}else if (randomNumber1 == randomNumber2)
+}
+else if (randomNumber1 == randomNumber2)
 {
   document.querySelector("h1").innerHTML="Opps! you both won try again";
-}else
+}
+else
 {
   document.querySelector("h1").innerHTML="player2 is winner";
 }
