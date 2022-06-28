@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #393E46;
+  background-color: #041C32 !important;
 }
 
 h1, h2 {
@@ -19,7 +19,7 @@ h1, h2 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 5rem;
-  color: #4ECCA3;
+  color: #787A91;
 }
 
 h2
@@ -29,7 +29,7 @@ h2
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #787A91;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -37,9 +37,17 @@ img {
   width: 80%;
 }
 
+.btn{
+  background-color: #787A91;
+  color:#041C32;
+  padding: 10px;
+  font-size: 2rem;
+  border-radius: 15px;
+}
+
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #787A91;
   text-align: center;
   font-family: 'Indie Flower', cursive;
 
