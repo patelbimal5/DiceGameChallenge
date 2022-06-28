@@ -26,4 +26,6 @@ else
   document.querySelector("h2").innerHTML="Player2 Won";
 }
 
-//alert(randomNumber1);
+function playAgain(){
+  location.reload();
+}
